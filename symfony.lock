@@ -1,4 +1,16 @@
 {
+    "bref/symfony-bridge": {
+        "version": "0.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "0.1",
+            "ref": "073e577186ef96e4f26df1f8a3dc14a48826d364"
+        },
+        "files": [
+            "serverless.yml"
+        ]
+    },
     "dama/doctrine-test-bundle": {
         "version": "4.0",
         "recipe": {
@@ -144,6 +156,18 @@
     },
     "nikic/php-parser": {
         "version": "v4.13.2"
+    },
+    "nyholm/psr7": {
+        "version": "1.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "0cd4d2d0e7f646fda75f9944f747a56e6ed13d4c"
+        },
+        "files": [
+            "config/packages/nyholm_psr7.yaml"
+        ]
     },
     "phpstan/phpstan": {
         "version": "1.2.0"

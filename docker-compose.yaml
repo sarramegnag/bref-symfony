@@ -6,3 +6,8 @@ services:
         volumes:
             - .:/app
             - ~/.composer:/.composer
+
+    node:
+        build: .docker/node
+        volumes:
+            - .:/app
